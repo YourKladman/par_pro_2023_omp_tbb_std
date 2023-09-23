@@ -70,3 +70,4 @@ TEST(Sequential_Deicstra, Test_Deicstra_4) {
     const std::vector<int> result = djikstra(2, b);
     ASSERT_EQ(answer == result, true);
 }
+
